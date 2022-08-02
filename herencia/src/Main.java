@@ -11,7 +11,13 @@ public class Main {
         System.out.println("tengo un credito de "+ " " + cliente.getCredito());
         Trabajador trabajador = new Trabajador ();
         trabajador.setSalario(150000);
-        System.out.println("Soy el trabajador:"+trabajador.getSalario());
+        trabajador.setEdad("42");
+        trabajador.setNombre("jacinto");
+        trabajador.setTelefono("14879");
+        System.out.println("Soy el trabajador y gano:"+" "+trabajador.getSalario());
+        System.out.println("Soy el trabajador y tengo:"+" "+trabajador.getEdad()+" "+"años");
+        System.out.println("Soy el trabajador y me llamo:"+" "+trabajador.getNombre());
+        System.out.println("Soy el trabajador y mi telefono es:"+" "+trabajador.getTelefono());
 
     }
 }
