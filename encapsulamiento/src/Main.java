@@ -10,8 +10,6 @@ public class Main {
 
         persona.setTelefono("543705");
         System.out.println(persona.getTelefono());
-
-
     }
 }
 
@@ -21,7 +19,7 @@ class Persona{
     private String telefono;
 
 
-
+/*Getters and setters*/
     public String getEdad() {
         return this.edad;
     }
